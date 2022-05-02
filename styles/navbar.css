@@ -1,0 +1,47 @@
+#navbar{
+    width:100%;
+    height:40px;
+    background-color: teal;
+  }
+  #query{
+    width:50%;
+    height:30px;
+    margin:auto;
+    border-radius: 7px;
+  }
+  #search_input{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: auto;
+    justify-content: space-around;
+  }
+  #sidebar{
+    height:100%;
+    width:160px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 50px;
+    top:0;
+    left:0;
+    background-color: teal;
+  }
+  #sidebar h3{
+    cursor: pointer;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: blue;
+  }
+  #sidebar h3:hover{
+    color:aqua;
+  }
+ a{
+     text-decoration: none;
+     gap: 30px;
+     font-size: 20px;
+     padding-top: 5px;
+     padding-right: 5px;
+ }
